@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Marec</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAREC INSIGHTS — An Original Screenplay</title>
+<meta name="description" content="A cinematic screenplay in three acts: how MAREC Insights turns luxury resort data chaos into predictive workforce intelligence.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;800&family=Courier+Prime:wght@400;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- grain + spotlight canvases sit behind everything -->
+<canvas id="grain"></canvas>
+<canvas id="motes"></canvas>
+
+<!-- sprocket rails -->
+<div class="sprockets left" aria-hidden="true"></div>
+<div class="sprockets right" aria-hidden="true"></div>
+
+<!-- act progress / reel indicator -->
+<nav class="reel-nav" aria-label="Act navigation">
+  <div class="reel-spool" id="reelSpool" aria-hidden="true"></div>
+  <ol>
+    <li data-target="hero" class="active"><span>OPEN</span></li>
+    <li data-target="act1"><span>ACT I</span></li>
+    <li data-target="act2"><span>ACT II</span></li>
+    <li data-target="act3"><span>ACT III</span></li>
+    <li data-target="credits"><span>CREDITS</span></li>
+  </ol>
+</nav>
+
+<main>
+
+  <!-- ============ TITLE CARD ============ -->
+  <section id="hero" class="title-card">
+    <div class="fade-in-text">FADE IN:</div>
+    <img class="emblem" src="https://raw.githubusercontent.com/markreciopro/marec_insights/main/Gemini_Generated_Image_noss7snoss7snoss.jpg" alt="MAREC Insights parrot emblem, the Hospitality Data Science Parrot">
+    <h1 class="movie-title">MAREC<span>INSIGHTS</span></h1>
+    <p class="tagline">Cinematic Hospitality Workforce Intelligence</p>
+
+    <div class="slate" aria-hidden="true">
+      <div class="slate-row"><span>PRODUCTION</span><span>THE PARROT'S LEDGER</span></div>
+      <div class="slate-row"><span>WRITTEN &amp; DIRECTED BY</span><span>DATA · INSIGHTS · IMPACT</span></div>
+      <div class="slate-row"><span>STARRING</span><span>MAREC — THE HOSPITALITY DATA SCIENCE PARROT</span></div>
+      <div class="slate-row"><span>SCENE</span><span>1</span><span>TAKE</span><span>1</span></div>
+    </div>
+
+    <p class="scroll-cue">scroll to begin screening ↓</p>
+  </section>
+
+  <!-- ============ ACT I ============ -->
+  <section id="act1" class="act">
+    <div class="act-divider" data-act="I">
+      <span class="act-roman">ACT I</span>
+      <span class="act-name">The Phantom Surge</span>
+    </div>
+
+    <article class="scene reveal">
+      <p class="slug">INT. RESORT OPERATIONS CENTER — NIGHT</p>
+      <p class="action">A wall of monitors bleeds blue light across an empty office. Three dashboards disagree with each other. A GENERAL MANAGER stares at an occupancy report that doesn't match the labor report, which doesn't match what she saw on the floor an hour ago.</p>
+      <p class="dialogue"><span class="character">GENERAL MANAGER</span><br>Front desk says we're slammed. Payroll says we're overstaffed. Somebody's lying — and it isn't the guests.</p>
+    </article>
+
+    <article class="scene reveal">
+      <p class="slug">EXT. POOL DECK — GOLDEN HOUR</p>
+      <p class="action">A wave of unbooked walk-ins crashes over the towel station. Housekeeping is three rooms behind. Nobody scheduled for this — because nothing in the PMS predicted it.</p>
+      <p class="beat">A PHANTOM SURGE — demand nobody saw coming, because the system that tracks occupancy has never once spoken to the system that tracks the people who serve it.</p>
+    </article>
+
+    <article class="scene reveal">
+      <p class="slug">INT. EXECUTIVE BOARDROOM — DAY</p>
+      <p class="action">Quarterly numbers on the screen. Overtime is up. Guest satisfaction is down half a point nobody can explain. The CFO taps his pen.</p>
+      <p class="dialogue"><span class="character">CFO</span><br>Every property has this data. Nobody has this <em>story.</em></p>
+      <p class="beat cliff">Somewhere between the PMS, the POS, and the HR system, the truth is hiding in plain sight. It will take something with sharper eyes to find it.</p>
+    </article>
+  </section>
+
+  <!-- ============ ACT II ============ -->
+  <section id="act2" class="act act-dark">
+    <div class="act-divider" data-act="II">
+      <span class="act-roman">ACT II</span>
+      <span class="act-name">The Parrot's Diagnosis</span>
+    </div>
+
+    <article class="scene reveal entrance">
+      <p class="slug">EXT. SKY ABOVE THE RESORT — CONTINUOUS</p>
+      <p class="action">A shape cuts through the haze over the property. Feathers of emerald and gold catch the last light. MAREC — the Hospitality Data Science Parrot — banks low over the roofline, and for the first time tonight, the noise starts to resolve into a signal.</p>
+      <p class="dialogue"><span class="character">MAREC</span> <span class="parens">(V.O.)</span><br><span class="squawk">Brawk!</span> You don't have a data problem. You have a story nobody's told yet. Let's read it together.</p>
+    </article>
+
+    <div class="pillars">
+      <div class="pillar reveal">
+        <span class="pillar-tag">01 — DESCRIPTIVE</span>
+        <h3>Descriptive Vision</h3>
+        <p>INT. DATA ROOM — Marec pulls PMS, POS, and HR feeds into one frame. <strong>What is actually happening</strong> — not what three separate dashboards claim.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="pillar-tag">02 — DIAGNOSTIC</span>
+        <h3>Diagnostic Pulse</h3>
+        <p>The Phantom Surge has a heartbeat. Marec traces it — <strong>why</strong> the friction happens, where the labor variance actually leaks.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="pillar-tag">03 — PREDICTIVE</span>
+        <h3>Predictive Echo-Locating</h3>
+        <p>A call thrown into next season's booking pace comes back with an answer: <strong>what will happen</strong> at peak, at shoulder, at the next holiday weekend.</p>
+      </div>
+      <div class="pillar reveal">
+        <span class="pillar-tag">04 — PRESCRIPTIVE</span>
+        <h3>Prescriptive Optimization</h3>
+        <p>Not a report. An instruction. <strong>What to do about it</strong> — exact shifts, exact headcount, margins protected before the surge lands.</p>
+      </div>
+    </div>
+
+    <article class="scene reveal">
+      <p class="slug">MONTAGE — THE TRUSTED PARTNER FRAMEWORK</p>
+      <ul class="montage-list">
+        <li><span>—</span> An NDA is signed before a single row of data moves.</li>
+        <li><span>—</span> Read-only exports only. Nothing at the property is touched, nothing put at risk.</li>
+        <li><span>—</span> CSV and Excel bridges hand data across without friction for risk-averse IT teams.</li>
+        <li><span>—</span> Python, R, SQL, and Power BI pipelines start turning static exports into a living, breathing model.</li>
+      </ul>
+      <p class="action">One by one, the dashboards stop arguing with each other. On the operations floor, the GM watches shift patterns click into place, matched hour for hour against tomorrow's occupancy curve.</p>
+    </article>
+
+    <article class="scene reveal">
+      <p class="slug">INT. OPERATIONS CENTER — LATER — NIGHT</p>
+      <p class="dialogue"><span class="character">GENERAL MANAGER</span><br>This is the first time all three systems have told me the same thing.</p>
+      <p class="dialogue"><span class="character">MAREC</span> <span class="parens">(V.O.)</span><br><span class="squawk">Brawk!</span> They were always saying it. Nobody had taught them to talk to each other.</p>
+      <p class="beat">The dashboards begin to change color — from warning red, to a slow, steady gold.</p>
+    </article>
+  </section>
+
+  <!-- ============ ACT III ============ -->
+  <section id="act3" class="act">
+    <div class="act-divider" data-act="III">
+      <span class="act-roman">ACT III</span>
+      <span class="act-name">The Golden Ledger</span>
+    </div>
+
+    <article class="scene reveal">
+      <p class="slug">INT. EXECUTIVE BOARDROOM — DAY</p>
+      <p class="action">The same room as Act I. The same screen. But the story on it has changed. Staffing curves trace occupancy almost perfectly. Overtime has stopped bleeding. Every department is reading from the same page.</p>
+      <p class="dialogue"><span class="character">MAREC</span> <span class="parens">(V.O.)</span><br><span class="squawk">Brawk!</span> Dashboards glow gold. Margins rise. Guest experience thrives.</p>
+    </article>
+
+    <div class="pilot-steps reveal">
+      <div class="pilot-step">
+        <span class="step-num">STEP 01</span>
+        <h4>Discovery</h4>
+        <p>A complimentary 20-minute call. Zero commitment — just the property's friction points, out loud.</p>
+      </div>
+      <div class="pilot-step">
+        <span class="step-num">STEP 02</span>
+        <h4>Assessment</h4>
+        <p>A sample of operational data becomes a data-readiness report and a short list of quick-win KPIs.</p>
+      </div>
+      <div class="pilot-step">
+        <span class="step-num">STEP 03</span>
+        <h4>30-Day Pilot</h4>
+        <p>A custom dashboard, a simulation model, and an executive briefing deck — proof before scale.</p>
+      </div>
+    </div>
+
+    <article class="scene reveal">
+      <p class="slug">EXT. RESORT — POOL DECK — GOLDEN HOUR — LATER</p>
+      <p class="action">The same towel station from Act I. This time, the staffing count matches the crowd before it arrives. Housekeeping finishes early. A guest closes her eyes in the sun, unaware of the model quietly working behind the scenes to keep it this way.</p>
+      <p class="beat final">FADE OUT.</p>
+    </article>
+
+    <div class="the-end">THE END</div>
+  </section>
+
+  <!-- ============ CREDITS ============ -->
+  <section id="credits" class="credits-section">
+    <h2 class="credits-heading">Now Screening at Your Property</h2>
+    <div class="credits-crawl-viewport">
+      <div class="credits-crawl" id="creditsCrawl">
+        <p class="credits-role">MAREC INSIGHTS</p>
+        <p class="credits-sub">Cinematic Hospitality Workforce Intelligence</p>
+        <br>
+        <p class="credits-line"><strong>Marec</strong> — The Hospitality Data Science Parrot</p>
+        <p class="credits-line"><strong>Mark Anthony Recio, MBA</strong> — Founder &amp; Principal Consultant</p>
+        <br>
+        <p class="credits-dept">DEPARTMENTS</p>
+        <p class="credits-line">Revenue Management &amp; Pricing</p>
+        <p class="credits-line">Workforce &amp; Labor Cost Analytics</p>
+        <p class="credits-line">Guest Experience &amp; Satisfaction</p>
+        <p class="credits-line">Sales, Catering &amp; Events</p>
+        <p class="credits-line">Demand Forecasting &amp; Yield</p>
+        <p class="credits-line">Executive BI Dashboards</p>
+        <br>
+        <p class="credits-dept">FILMED ON LOCATION</p>
+        <p class="credits-line">Luxury resorts &amp; boutique properties — U.S. &amp; Caribbean</p>
+        <br>
+        <p class="credits-dept">BASED ON REAL ENGAGEMENTS INCLUDING</p>
+        <p class="credits-line">Palms Casino Resort, Las Vegas, NV</p>
+        <br>
+        <p class="credits-dept">TECHNICAL EXECUTION</p>
+        <p class="credits-line">Python · R · SQL · Power BI</p>
+        <br>
+        <p class="credits-dept">IN ASSOCIATION WITH</p>
+        <p class="credits-line">Synergy Staffing Solutions — Ken Arancibia, VP</p>
+        <br><br>
+        <p class="credits-copy">© 2026 MAREC INSIGHTS · CINEMATIC HOSPITALITY WORKFORCE INTELLIGENCE</p>
+      </div>
+    </div>
+
+    <div class="cta-block">
+      <p class="cta-kicker">SEQUEL IN DEVELOPMENT AT YOUR PROPERTY</p>
+      <h3>Schedule a Resort Consultation</h3>
+      <div class="cta-actions">
+        <a class="btn-primary" href="tel:7027632573">(702) 763-2573</a>
+        <a class="btn-secondary" href="https://www.linkedin.com/in/marecio/" target="_blank" rel="noopener">linkedin.com/in/marecio</a>
+        <a class="btn-secondary" href="https://marec.site/" target="_blank" rel="noopener">marec.site</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
